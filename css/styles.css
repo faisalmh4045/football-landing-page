@@ -2,12 +2,12 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* header secton styles */
 header {
-    background-color: #2D25A0;
+    background-color: #2d25a0;
     padding: 100px 130px;
     margin-bottom: 70px;
 }
@@ -23,14 +23,41 @@ header {
     color: white;
     margin-bottom: 27px;
 }
-.banner-info button{
+.banner-info button {
     font-size: 16px;
     color: white;
-    background-color: #E02C6D;
+    background-color: #e02c6d;
     border: none;
     padding: 10px 24px;
 }
-.top-banner img{
+.top-banner img {
     width: 556px;
     margin-left: 100px;
+}
+
+/* players section styles */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.player {
+    box-shadow: 0 0 40px #d0d0d0;
+    padding: 15px;
+}
+.player img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.player-info h3 {
+    font-size: 28px;
+    color: #18191f;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.player-info p {
+    color: #6c6c6c;
+    line-height: 26px;
 }
