@@ -1,0 +1,36 @@
+/* common styles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header secton styles */
+header {
+    background-color: #2D25A0;
+    padding: 100px 130px;
+    margin-bottom: 70px;
+}
+.top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 27px;
+}
+.banner-info button{
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+}
+.top-banner img{
+    width: 556px;
+    margin-left: 100px;
+}
