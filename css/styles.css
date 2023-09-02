@@ -101,3 +101,68 @@ header {
 .news-item .news-description {
     color: #6c6c6c;
 }
+
+/* match schedule section styles */
+.match-schedule {
+    margin-bottom: 100px;
+}
+.match-schedule h2 {
+    font-size: 36px;
+    width: 1050px;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 30px;
+    justify-content: center;
+}
+#special-match {
+    display: flex;
+    grid-column: 1/4;
+    align-items: center;
+}
+#special-match .match-name {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#special-match .match-name + h3 {
+    font-size: 24px;
+}
+#final-match {
+    padding-left: 50px;
+}
+.match {
+    box-shadow: 0 0 40px #d0d0d0;
+    padding: 15px;
+}
+.match img {
+    width: 100%;
+}
+.match .match-status p {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    background-color: #2d25a0;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.match-name {
+    margin-bottom: 5px;
+}
+.match-time {
+    color: #6c6c6c;
+}
+.view-btn {
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    padding: 0;
+}
